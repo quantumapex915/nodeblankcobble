@@ -1,0 +1,12 @@
+{
+  "name": "log-rotator-26d80e",
+  "version": "1.0.0",
+  "description": "A log rotator utility",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": ["log-rotator", "utility"],
+  "license": "MIT"
+}

